@@ -9,6 +9,59 @@ and open the template in the editor.
 */
 
 * {
-	font-family: Times New Roman;
+	font-family: Times New Roman sans-serif;
+	padding-bottom: 0;
+	margin-bottom: 2px;
+	padding-top: 0;
+	margin-top: 2px;
 }
+
+body {
+	padding-left: 20px;
+}
+
+header h1 {
+	text-transform: uppercase;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+header p {
+	padding-top: 0;
+	margin-top: 0;
+	text-align: center;
+}
+
+h2 {
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-size: 100%;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 30px;
+}
+
+.education p{
+	margin-left: 0;
+}
+
+.floatright {
+	float: right;
+	vertical-align: text-top;
+}
+
+h3 {
+	font-size: 100%;
+	font-style: italic;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.intern1, .leadership {
+	margin-bottom: 20px;
+}
+
 
