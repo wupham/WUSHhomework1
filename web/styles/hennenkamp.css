@@ -1,31 +1,28 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
+
 /* 
     Created on : Sep 29, 2016, 4:22:30 PM
-    Author     : Sarah
+    Copyright © 2016 Wes Upham and Sarah Hennenkamp
 */
 
 * {
 	font-family: Times New Roman sans-serif;
-	padding-bottom: 0;
 	margin-bottom: 2px;
-	padding-top: 0;
 	margin-top: 2px;
+	padding-bottom: 0;
+	padding-top: 0;
 }
 
 body {
 	padding-left: 20px;
+	padding-right: 20px;
 }
 
 header h1 {
-	text-transform: uppercase;
 	padding-bottom: 0;
 	padding-top: 1em;
 	margin-bottom: 0;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 header p {
@@ -35,12 +32,12 @@ header p {
 }
 
 h2 {
-	text-transform: uppercase;
-	text-decoration: underline;
 	font-size: 100%;
 	margin-bottom: 0;
 	padding-bottom: 0;
 	padding-top: 30px;
+	text-decoration: underline;
+	text-transform: uppercase;
 }
 
 .education p{
@@ -68,17 +65,29 @@ h3 {
 }
 
 .smallDate {
-    display: none;
+	display: none;
+}
+
+.lessthan {
+	display: none;
 }
 
 @media screen and (max-width: 500px){
 	.floatright {
 		display: none;
 	}
-        
-        .smallDate {
-            display: inline;
-        }
+
+	.smallDate {
+    display: inline;
+  }
+	
+	.lessthan {
+		display: block;
+	}
+	
+	.greater {
+		display: none;
+	}
 
 }
 
